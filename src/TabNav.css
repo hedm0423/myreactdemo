@@ -1,0 +1,11 @@
+li {
+    list-style:none;
+    display:block;
+    margin:3px;
+    padding:3px;
+    float:left;
+}
+
+li:after {
+    clear:both;
+}
